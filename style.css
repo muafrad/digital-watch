@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #f1f2f6;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    background-color: #2f3542;
+}
+
+.myWatch{
+    position:fixed;
+    top: 30%;
+    left: 40%;
+}
+
+.hour, .min, .sec{
+    padding: 10px;
+    margin: 5px;
+    font-size: 5rem;
+    border-radius: 5px;
+}
+
+.hour{
+    background: #ff6348;
+}
+.min{
+    background: #2ed573;
+}
+.sec{
+    background: #ffa502;
+}
+.calender{
+    padding: 5px;
+    margin: 15px;
+    font-size: 20px;
+    background:#f1f2f650;
+    border-radius:3px;
+}
+.calender > span{
+    margin-left: 25px;
+}
